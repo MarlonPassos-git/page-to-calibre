@@ -6,6 +6,19 @@ Use um Content server ativo com autenticação. A porta da interface gráfica, a
 
 Crie um usuário de escrita próprio, limitado à biblioteca alvo, preservando os usuários de leitura existentes. Descubra o ID da biblioteca com `calibredb list --with-library 'http://HOST:PORT/#-' --username USUARIO --password '<f:/caminho/secret>'`. O arquivo deve ser legível pelo UID 10001 do aplicativo, sem ficar legível por outros usuários do host. Em uma GUI Calibre, gerencie os usuários em Preferências → Compartilhamento pela rede. Não ative escrita anônima para viabilizar a integração.
 
+Na GUI, abra **Conectar/compartilhar → Iniciar servidor de conteúdo** e configure a exigência de usuário/senha em **Preferências → Compartilhamento pela rede**. Se já houver um Content server, reutilize-o. Para uma instalação sem GUI, o Calibre 9.15 também oferece administração por CLI:
+
+```sh
+# O arquivo de senha deve conter apenas a senha, sem quebra de linha final.
+calibre-server --userdb /caminho/usuarios.sqlite --manage-users -- add page-to-calibre < /caminho/secret
+# Use aqui o nome da pasta da biblioteca, não o ID com underscores da URL.
+calibre-server --userdb /caminho/usuarios.sqlite --manage-users -- libraries --action allow page-to-calibre "Calibre Library"
+# Somente quando não existir outro Content server para essa biblioteca:
+calibre-server "/caminho/Calibre Library" --enable-auth --userdb /caminho/usuarios.sqlite --port 8080
+```
+
+Use o mesmo arquivo de usuários da instância, com backup anterior; não inicialize outro arquivo por cima da autenticação existente. O processo precisa das permissões do proprietário da biblioteca. A senha não aparece nos argumentos. Revise também a conta de leitura antes/depois, sem alterar sua restrição.
+
 Não monte a biblioteca no aplicativo nem edite diretamente seu banco em uso. O aplicativo não recebe socket Docker. A conexão Calibre é configurada pelo operador; o capturador de artigos é outro cliente e bloqueia destinos internos.
 
 ## Docker
