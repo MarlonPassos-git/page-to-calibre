@@ -1,0 +1,30 @@
+services:
+  page-to-calibre:
+    build: .
+    image: page-to-calibre:local
+    restart: unless-stopped
+    init: true
+    ports:
+      - "127.0.0.1:8091:8091"
+    environment:
+      PTC_ORIGIN: ${PTC_ORIGIN:-http://127.0.0.1:8091}
+      CALIBRE_URL: ${CALIBRE_URL:?configure CALIBRE_URL}
+      CALIBRE_PUBLIC_URL: ${CALIBRE_PUBLIC_URL:-${CALIBRE_URL}}
+      CALIBRE_LIBRARY: ${CALIBRE_LIBRARY:?configure CALIBRE_LIBRARY}
+      CALIBRE_USERNAME: ${CALIBRE_USERNAME:?configure CALIBRE_USERNAME}
+      CALIBRE_PASSWORD_FILE: /run/secrets/calibre_password
+    secrets:
+      - calibre_password
+    volumes:
+      - page_to_calibre_data:/data
+    read_only: true
+    tmpfs:
+      - /tmp:mode=1777,size=256m
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+    stop_grace_period: 20s
+secrets:
+  calibre_password:
+    file: ${CALIBRE_PASSWORD_HOST_FILE:?configure CALIBRE_PASSWORD_HOST_FILE}
+volumes:
+  page_to_calibre_data:

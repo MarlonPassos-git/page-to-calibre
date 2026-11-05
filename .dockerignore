@@ -1,0 +1,9 @@
+.git
+.env*
+artifacts
+data
+.impeccable/review
+web/node_modules
+web/dist
+web/test-results
+web/playwright-report
