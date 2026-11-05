@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="pt-BR">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f4f7f8"><title>page-to-calibre</title></head>
+<body>
+<main id="app">
+  <header><p class="brand">page-to-calibre</p><h1>Guarde uma boa leitura.</h1><p class="intro">Cole o endereço de um artigo. Revise os detalhes e envie para sua biblioteca.</p></header>
+  <form id="send-form" action="/api/v1/imports" method="post">
+    <div class="field"><label for="url">Endereço do artigo <span>(obrigatório)</span></label><p id="url-hint" class="hint">Use um link público que comece com https:// ou http://.</p><div class="send-row"><input id="url" name="url" type="url" required pattern="https?://.*" maxlength="4096" autocomplete="url" inputmode="url" autocorrect="off" autocapitalize="off" spellcheck="false" aria-describedby="url-hint url-error" placeholder="https://exemplo.com/artigo"><button type="submit" id="send">Enviar ao Calibre</button></div><p id="url-error" class="field-error" hidden>Informe um endereço HTTP(S) completo.</p></div>
+    <div id="status" role="status" aria-live="polite" aria-atomic="true"></div>
+    <p id="error" role="alert" hidden></p><p id="result" hidden></p>
+    <section id="preview" hidden aria-labelledby="preview-heading">
+      <div class="preview-heading"><h2 id="preview-heading">Confira o artigo</h2><p id="source"></p></div>
+      <fieldset><legend>Detalhes do livro</legend>
+        <div class="field title-field"><label for="title">Título <span>(obrigatório)</span></label><input id="title" name="title" required maxlength="500" disabled></div>
+        <div class="field"><label for="author">Autor <span>(opcional)</span></label><input id="author" name="author" maxlength="4000" disabled placeholder="Não informado pela página"></div>
+        <div class="field"><label for="date">Data de publicação <span>(opcional)</span></label><input id="date" name="date" type="date" disabled></div>
+        <div class="field title-field"><label for="tags">Etiquetas <span>(separadas por vírgula)</span></label><input id="tags" name="tags" maxlength="3000" disabled></div>
+      </fieldset>
+      <p id="language" class="hint"></p><div class="excerpt"><h3>Trecho do artigo</h3><p id="excerpt"></p></div><p id="warnings" class="hint"></p>
+    </section>
+  </form>
+  <footer>A prévia não adiciona livros. O envio continua mesmo se você fechar esta página.</footer>
+</main>
+<noscript>Ative JavaScript para preparar e enviar artigos. A API JSON pode ser usada por outros clientes.</noscript>
+<script type="module" src="/src/bootstrap.ts"></script>
+</body></html>
