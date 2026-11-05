@@ -1,5 +1,7 @@
 # page-to-calibre
 
+> **PoC encerrada e repositório arquivado em 05/11/2026.** O projeto foi um experimento de captura de páginas e importação EPUB no Calibre. O fluxo de artigos passou para o [Wallabag](https://wallabag.org/). Código e documentação ficam preservados para estudo e reprodução; não há manutenção ativa. [Resultados e limitações da PoC](docs/poc-results.md).
+
 Transforma uma URL pública em um EPUB e envia ao Content server do Calibre. A prévia automática permite revisar título, autor, data e etiquetas. A fila fica no SQLite: fechar a aba não cancela uma importação aceita, e o mesmo navegador pode recuperar seu resultado.
 
 Implementação validada localmente com Calibre 9.15.0, incluindo testes integrados de importação e deduplicação. A instalação precisa de um Content server configurado; siga o procedimento abaixo.
