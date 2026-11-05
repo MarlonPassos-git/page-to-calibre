@@ -1,0 +1,423 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-05T13:11:50.576034+00:00",
+  "title": "Design System: page-to-calibre",
+  "extensions": {
+    "colorMeta": {
+      "primary": {
+        "role": "primary",
+        "displayName": "Verde petróleo",
+        "tonalRamp": [
+          "oklch(15% 0.07819 186.47)",
+          "oklch(26% 0.07819 186.47)",
+          "oklch(38% 0.07819 186.47)",
+          "oklch(49% 0.07819 186.47)",
+          "oklch(61% 0.07819 186.47)",
+          "oklch(72% 0.07819 186.47)",
+          "oklch(84% 0.07819 186.47)",
+          "oklch(95% 0.07819 186.47)"
+        ]
+      },
+      "primary-hover": {
+        "role": "primary",
+        "displayName": "primary-hover",
+        "tonalRamp": [
+          "oklch(15% 0.06329 187.09)",
+          "oklch(26% 0.06329 187.09)",
+          "oklch(38% 0.06329 187.09)",
+          "oklch(49% 0.06329 187.09)",
+          "oklch(61% 0.06329 187.09)",
+          "oklch(72% 0.06329 187.09)",
+          "oklch(84% 0.06329 187.09)",
+          "oklch(95% 0.06329 187.09)"
+        ]
+      },
+      "primary-active": {
+        "role": "primary",
+        "displayName": "primary-active",
+        "tonalRamp": [
+          "oklch(15% 0.05302 189.06)",
+          "oklch(26% 0.05302 189.06)",
+          "oklch(38% 0.05302 189.06)",
+          "oklch(49% 0.05302 189.06)",
+          "oklch(61% 0.05302 189.06)",
+          "oklch(72% 0.05302 189.06)",
+          "oklch(84% 0.05302 189.06)",
+          "oklch(95% 0.05302 189.06)"
+        ]
+      },
+      "primary-disabled": {
+        "role": "primary",
+        "displayName": "primary-disabled",
+        "tonalRamp": [
+          "oklch(15% 0.04025 189.31)",
+          "oklch(26% 0.04025 189.31)",
+          "oklch(38% 0.04025 189.31)",
+          "oklch(49% 0.04025 189.31)",
+          "oklch(61% 0.04025 189.31)",
+          "oklch(72% 0.04025 189.31)",
+          "oklch(84% 0.04025 189.31)",
+          "oklch(95% 0.04025 189.31)"
+        ]
+      },
+      "page": {
+        "role": "neutral",
+        "displayName": "Papel frio",
+        "tonalRamp": [
+          "oklch(15% 0.00347 219.53)",
+          "oklch(26% 0.00347 219.53)",
+          "oklch(38% 0.00347 219.53)",
+          "oklch(49% 0.00347 219.53)",
+          "oklch(61% 0.00347 219.53)",
+          "oklch(72% 0.00347 219.53)",
+          "oklch(84% 0.00347 219.53)",
+          "oklch(95% 0.00347 219.53)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Tinta azul",
+        "tonalRamp": [
+          "oklch(15% 0.03636 232.66)",
+          "oklch(26% 0.03636 232.66)",
+          "oklch(38% 0.03636 232.66)",
+          "oklch(49% 0.03636 232.66)",
+          "oklch(61% 0.03636 232.66)",
+          "oklch(72% 0.03636 232.66)",
+          "oklch(84% 0.03636 232.66)",
+          "oklch(95% 0.03636 232.66)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "muted",
+        "tonalRamp": [
+          "oklch(15% 0.03315 222.03)",
+          "oklch(26% 0.03315 222.03)",
+          "oklch(38% 0.03315 222.03)",
+          "oklch(49% 0.03315 222.03)",
+          "oklch(61% 0.03315 222.03)",
+          "oklch(72% 0.03315 222.03)",
+          "oklch(84% 0.03315 222.03)",
+          "oklch(95% 0.03315 222.03)"
+        ]
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "surface",
+        "tonalRamp": [
+          "oklch(15% 0.00000 89.88)",
+          "oklch(26% 0.00000 89.88)",
+          "oklch(38% 0.00000 89.88)",
+          "oklch(49% 0.00000 89.88)",
+          "oklch(61% 0.00000 89.88)",
+          "oklch(72% 0.00000 89.88)",
+          "oklch(84% 0.00000 89.88)",
+          "oklch(95% 0.00000 89.88)"
+        ]
+      },
+      "border": {
+        "role": "neutral",
+        "displayName": "border",
+        "tonalRamp": [
+          "oklch(15% 0.02630 226.68)",
+          "oklch(26% 0.02630 226.68)",
+          "oklch(38% 0.02630 226.68)",
+          "oklch(49% 0.02630 226.68)",
+          "oklch(61% 0.02630 226.68)",
+          "oklch(72% 0.02630 226.68)",
+          "oklch(84% 0.02630 226.68)",
+          "oklch(95% 0.02630 226.68)"
+        ]
+      },
+      "placeholder": {
+        "role": "neutral",
+        "displayName": "placeholder",
+        "tonalRamp": [
+          "oklch(15% 0.03048 227.28)",
+          "oklch(26% 0.03048 227.28)",
+          "oklch(38% 0.03048 227.28)",
+          "oklch(49% 0.03048 227.28)",
+          "oklch(61% 0.03048 227.28)",
+          "oklch(72% 0.03048 227.28)",
+          "oklch(84% 0.03048 227.28)",
+          "oklch(95% 0.03048 227.28)"
+        ]
+      },
+      "readonly": {
+        "role": "neutral",
+        "displayName": "readonly",
+        "tonalRamp": [
+          "oklch(15% 0.00656 208.78)",
+          "oklch(26% 0.00656 208.78)",
+          "oklch(38% 0.00656 208.78)",
+          "oklch(49% 0.00656 208.78)",
+          "oklch(61% 0.00656 208.78)",
+          "oklch(72% 0.00656 208.78)",
+          "oklch(84% 0.00656 208.78)",
+          "oklch(95% 0.00656 208.78)"
+        ]
+      },
+      "focus": {
+        "role": "neutral",
+        "displayName": "focus",
+        "tonalRamp": [
+          "oklch(15% 0.09331 218.64)",
+          "oklch(26% 0.09331 218.64)",
+          "oklch(38% 0.09331 218.64)",
+          "oklch(49% 0.09331 218.64)",
+          "oklch(61% 0.09331 218.64)",
+          "oklch(72% 0.09331 218.64)",
+          "oklch(84% 0.09331 218.64)",
+          "oklch(95% 0.09331 218.64)"
+        ]
+      },
+      "link": {
+        "role": "neutral",
+        "displayName": "link",
+        "tonalRamp": [
+          "oklch(15% 0.07388 211.77)",
+          "oklch(26% 0.07388 211.77)",
+          "oklch(38% 0.07388 211.77)",
+          "oklch(49% 0.07388 211.77)",
+          "oklch(61% 0.07388 211.77)",
+          "oklch(72% 0.07388 211.77)",
+          "oklch(84% 0.07388 211.77)",
+          "oklch(95% 0.07388 211.77)"
+        ]
+      },
+      "divider": {
+        "role": "neutral",
+        "displayName": "divider",
+        "tonalRamp": [
+          "oklch(15% 0.01386 226.59)",
+          "oklch(26% 0.01386 226.59)",
+          "oklch(38% 0.01386 226.59)",
+          "oklch(49% 0.01386 226.59)",
+          "oklch(61% 0.01386 226.59)",
+          "oklch(72% 0.01386 226.59)",
+          "oklch(84% 0.01386 226.59)",
+          "oklch(95% 0.01386 226.59)"
+        ]
+      },
+      "success": {
+        "role": "neutral",
+        "displayName": "success",
+        "tonalRamp": [
+          "oklch(15% 0.02159 174.98)",
+          "oklch(26% 0.02159 174.98)",
+          "oklch(38% 0.02159 174.98)",
+          "oklch(49% 0.02159 174.98)",
+          "oklch(61% 0.02159 174.98)",
+          "oklch(72% 0.02159 174.98)",
+          "oklch(84% 0.02159 174.98)",
+          "oklch(95% 0.02159 174.98)"
+        ]
+      },
+      "error-ink": {
+        "role": "neutral",
+        "displayName": "error-ink",
+        "tonalRamp": [
+          "oklch(15% 0.15132 25.34)",
+          "oklch(26% 0.15132 25.34)",
+          "oklch(38% 0.15132 25.34)",
+          "oklch(49% 0.15132 25.34)",
+          "oklch(61% 0.15132 25.34)",
+          "oklch(72% 0.15132 25.34)",
+          "oklch(84% 0.15132 25.34)",
+          "oklch(95% 0.15132 25.34)"
+        ]
+      },
+      "error-surface": {
+        "role": "neutral",
+        "displayName": "error-surface",
+        "tonalRamp": [
+          "oklch(15% 0.01650 26.65)",
+          "oklch(26% 0.01650 26.65)",
+          "oklch(38% 0.01650 26.65)",
+          "oklch(49% 0.01650 26.65)",
+          "oklch(61% 0.01650 26.65)",
+          "oklch(72% 0.01650 26.65)",
+          "oklch(84% 0.01650 26.65)",
+          "oklch(95% 0.01650 26.65)"
+        ]
+      },
+      "invalid-border": {
+        "role": "neutral",
+        "displayName": "invalid-border",
+        "tonalRamp": [
+          "oklch(15% 0.15342 25.18)",
+          "oklch(26% 0.15342 25.18)",
+          "oklch(38% 0.15342 25.18)",
+          "oklch(49% 0.15342 25.18)",
+          "oklch(61% 0.15342 25.18)",
+          "oklch(72% 0.15342 25.18)",
+          "oklch(84% 0.15342 25.18)",
+          "oklch(95% 0.15342 25.18)"
+        ]
+      },
+      "invalid-surface": {
+        "role": "neutral",
+        "displayName": "invalid-surface",
+        "tonalRamp": [
+          "oklch(15% 0.01194 23.70)",
+          "oklch(26% 0.01194 23.70)",
+          "oklch(38% 0.01194 23.70)",
+          "oklch(49% 0.01194 23.70)",
+          "oklch(61% 0.01194 23.70)",
+          "oklch(72% 0.01194 23.70)",
+          "oklch(84% 0.01194 23.70)",
+          "oklch(95% 0.01194 23.70)"
+        ]
+      },
+      "selection": {
+        "role": "neutral",
+        "displayName": "selection",
+        "tonalRamp": [
+          "oklch(15% 0.03757 183.98)",
+          "oklch(26% 0.03757 183.98)",
+          "oklch(38% 0.03757 183.98)",
+          "oklch(49% 0.03757 183.98)",
+          "oklch(61% 0.03757 183.98)",
+          "oklch(72% 0.03757 183.98)",
+          "oklch(84% 0.03757 183.98)",
+          "oklch(95% 0.03757 183.98)"
+        ]
+      },
+      "selection-ink": {
+        "role": "neutral",
+        "displayName": "selection-ink",
+        "tonalRamp": [
+          "oklch(15% 0.03735 209.52)",
+          "oklch(26% 0.03735 209.52)",
+          "oklch(38% 0.03735 209.52)",
+          "oklch(49% 0.03735 209.52)",
+          "oklch(61% 0.03735 209.52)",
+          "oklch(72% 0.03735 209.52)",
+          "oklch(84% 0.03735 209.52)",
+          "oklch(95% 0.03735 209.52)"
+        ]
+      },
+      "scrollbar": {
+        "role": "neutral",
+        "displayName": "scrollbar",
+        "tonalRamp": [
+          "oklch(15% 0.02595 212.97)",
+          "oklch(26% 0.02595 212.97)",
+          "oklch(38% 0.02595 212.97)",
+          "oklch(49% 0.02595 212.97)",
+          "oklch(61% 0.02595 212.97)",
+          "oklch(72% 0.02595 212.97)",
+          "oklch(84% 0.02595 212.97)",
+          "oklch(95% 0.02595 212.97)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "headline": {
+        "displayName": "headline",
+        "purpose": "Título principal da tarefa."
+      },
+      "title": {
+        "displayName": "title",
+        "purpose": "Título da prévia."
+      },
+      "body": {
+        "displayName": "body",
+        "purpose": "Texto corrente e campos."
+      },
+      "intro": {
+        "displayName": "intro",
+        "purpose": "Introdução limitada a 55ch."
+      },
+      "label": {
+        "displayName": "label",
+        "purpose": "Rótulos e ação principal."
+      },
+      "hint": {
+        "displayName": "hint",
+        "purpose": "Ajuda e origem."
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "button-background",
+        "value": "background-color 140ms ease-out",
+        "purpose": "Apenas com prefers-reduced-motion: no-preference."
+      },
+      {
+        "name": "preview-appear",
+        "value": "appear 180ms ease-out",
+        "purpose": "Recorte de inset(0 0 8%) para inset(0), apenas com movimento permitido."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "single-column",
+        "value": "38rem"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Botão principal",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Ação de envio, com estados de interação e espera.",
+      "html": "<button class=\"ds-button\" type=\"button\">Enviar ao Calibre</button>",
+      "css": ".ds-button { font: 600 1rem/1.6 system-ui, sans-serif; min-block-size: 3rem; border-radius: .4rem; border: 0; background: #09665f; color: #fff; padding: .7rem 1.25rem; cursor: pointer; white-space: nowrap; } .ds-button:hover { background: #064c47; } .ds-button:active { background: #043b38; } .ds-button:disabled { background: #4e716e; cursor: wait; } .ds-button:focus-visible { outline: 3px solid #147c94; outline-offset: 3px; } @media (max-width: 38rem) { .ds-button { inline-size: 100%; } } @media (prefers-reduced-motion: no-preference) { .ds-button { transition: background-color 140ms ease-out; } }"
+    },
+    {
+      "name": "Campo de endereço",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Campo com rótulo, orientação e validação após interação.",
+      "html": "<div class=\"ds-field\"><label class=\"ds-label\" for=\"ds-url\">Endereço do artigo</label><p class=\"ds-hint\" id=\"ds-help\">Use um link público que comece com https:// ou http://.</p><input class=\"ds-input\" id=\"ds-url\" type=\"url\" required pattern=\"https?://.*\" placeholder=\"https://exemplo.com/artigo\" aria-describedby=\"ds-help\"></div>",
+      "css": ".ds-field { color: #182f3b; font: 1rem/1.6 system-ui, sans-serif; } .ds-label { display: block; font-weight: 600; margin-block-end: .4rem; } .ds-hint { color: #48616a; font-size: .875rem; margin: 0 0 .75rem; } .ds-input { display: block; inline-size: 100%; min-inline-size: 0; min-block-size: 3rem; font: 1rem/1.6 system-ui, sans-serif; border-radius: .4rem; padding: .7rem .85rem; border: 1px solid #879ba4; color: #182f3b; background: #fff; } .ds-input::placeholder { color: #586e78; } .ds-input:read-only { background: #eaf0f1; } .ds-input:user-invalid { border-color: #a12c2c; background: #fff4f3; } .ds-input:focus-visible { outline: 3px solid #147c94; outline-offset: 3px; }"
+    },
+    {
+      "name": "Erro de operação",
+      "kind": "custom",
+      "refersTo": "error",
+      "description": "Mensagem de erro com fundo semântico e texto explícito.",
+      "html": "<p class=\"ds-error\" role=\"alert\">Informe um endereço HTTP(S) completo.</p>",
+      "css": ".ds-error { font: 1rem/1.6 system-ui, sans-serif; margin: 0 0 .75rem; padding: 1rem; border-radius: .4rem; color: #9c2929; background: #fff0ee; }"
+    },
+    {
+      "name": "Resultado confirmado",
+      "kind": "custom",
+      "refersTo": "result",
+      "description": "Resultado com link para o livro confirmado no Calibre.",
+      "html": "<p class=\"ds-result\">Artigo adicionado · <a class=\"ds-link\" href=\"#calibre\">Abrir no Calibre</a></p>",
+      "css": ".ds-result { font: 1rem/1.6 system-ui, sans-serif; margin: 0 0 .75rem; padding: 1rem; border-radius: .4rem; background: #dcefe9; color: #182f3b; } .ds-link { color: #075c69; text-underline-offset: .2em; overflow-wrap: anywhere; } .ds-link:focus-visible { outline: 3px solid #147c94; outline-offset: 3px; }"
+    },
+    {
+      "name": "Cabeçalho da prévia",
+      "kind": "custom",
+      "description": "Separação aberta entre envio e revisão do artigo.",
+      "html": "<section class=\"ds-preview\"><div class=\"ds-heading\"><h2 class=\"ds-title\">Confira o artigo</h2><p class=\"ds-source\">Origem do artigo · https://exemplo.com/artigo</p></div></section>",
+      "css": ".ds-preview { color: #182f3b; font: 1rem/1.6 system-ui, sans-serif; margin-block-start: 2rem; border-block-start: 1px solid #c8d3d8; padding-block-start: 2rem; } .ds-heading { margin-block-end: 1.75rem; } .ds-title { font-size: 1.35rem; line-height: 1.3; margin: 0; } .ds-source { margin: .5rem 0 .75rem; font-size: .875rem; overflow-wrap: anywhere; color: #48616a; } @media (prefers-reduced-motion: no-preference) { .ds-preview { animation: ds-appear 180ms ease-out; } @keyframes ds-appear { from { clip-path: inset(0 0 8%); } to { clip-path: inset(0); } } }"
+    }
+  ],
+  "narrative": {
+    "northStar": "Bancada simples de envio",
+    "overview": "Uma interface pessoal de leitura com fundo claro frio, texto azul profundo e ação verde petróleo. A aparência é discreta, com espaços suficientes para distinguir campos, instruções e respostas da operação.\n\nO sistema construído usa tipografia de sistema, controles retangulares de cantos discretos e agrupamento por espaçamento. A identificação do produto fica acima da tarefa; não há imagens de produto. Este documento registra a implementação local existente, sem afirmar implantação ou publicação.",
+    "keyCharacteristics": [
+      "Paleta fria com uma ação principal em verde petróleo.",
+      "Hierarquia por tamanho, peso, espaçamento e fundos de estado.",
+      "Controles nativos, foco visível e adaptação para uma coluna."
+    ],
+    "rules": [],
+    "dos": [
+      "Do manter rótulos visíveis e mensagens de estado próximas da ação.",
+      "Do preservar o foco visível e a preferência de redução de movimento.",
+      "Do usar os tokens de estado para diferenciar leitura, erro e resultado."
+    ],
+    "donts": [
+      "Don't retirar sublinhados dos links de resultado.",
+      "Don't depender apenas da cor para explicar erros ou progresso.",
+      "Don't acrescentar sombras aos padrões planos documentados."
+    ]
+  }
+}
